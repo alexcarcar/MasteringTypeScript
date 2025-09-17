@@ -3,7 +3,9 @@
 Welcome to the Mastering TypeScript Project!
 This simple project is designed to help you understand the basics of TypeScript, including how to set up a project, use static typing, and organize code with modules.
 
-This Git repository contains my personal notes, code snippets, and reflections as I read through *Programming with Types* by Vlad Riscutia. The book offers a deep dive into TypeScript's type system, exploring concepts like structural typing, type inference, and advanced patterns for building robust applications. My notes aim to reinforce key ideas from the book and provide practical examples that complement the theoretical insights. You can learn more about the book [here](https://programmingwithtypes.com).
+This Git repository contains my personal notes, code snippets, and reflections as I read through *Programming with Types* by Vlad Riscutia. The book offers a deep dive into TypeScript's type system, exploring concepts like structural typing, type inference, and advanced patterns for building robust applications. My notes aim to reinforce key ideas from the book and provide practical examples that complement the theoretical insights. You can learn more about the book [here](https://www.manning.com/books/programming-with-types).
+
+My notes on TypeScript can be accessed [here](https://github.com/alexcarcar/MasteringTypeScript/notes).
 
 ---
 

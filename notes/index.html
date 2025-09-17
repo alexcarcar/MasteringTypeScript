@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction to TypeScript</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 2rem;
+          background-color: #f9f9f9;
+          color: #333;
+        }
+        h1 {
+          color: #3178c6;
+        }
+        code {
+          background-color: #eee;
+          padding: 2px 6px;
+          border-radius: 4px;
+          font-family: monospace;
+        }
+        pre {
+          background-color: #eee;
+          padding: 1rem;
+          border-radius: 6px;
+          overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+<h1>Welcome to TypeScript</h1>
+<p>
+    TypeScript is a strongly typed programming language that builds on JavaScript by adding static type definitions. It helps developers catch errors early, write more maintainable code, and improve overall development productivity.
+</p>
+
+<h2>Why Use TypeScript?</h2>
+<ul>
+    <li>✅ Type safety and early error detection</li>
+    <li>✅ Better tooling and autocompletion</li>
+    <li>✅ Supports modern JavaScript features</li>
+    <li>✅ Scales well for large applications</li>
+</ul>
+
+<h2>Basic Syntax Example</h2>
+<pre><code>interface User {
+  id: number;
+  name: string;
+  email?: string;
+}
+
+function greet(user: User): string {
+  return `Hello, ${user.name}!`;
+}
+
+const user: User = {
+  id: 1,
+  name: "Alice"
+};
+
+console.log(greet(user));
+</code></pre>
+
+<h2>Learn More</h2>
+<p>
+    Visit the <a href="https://www.typescriptlang.org/" target="_blank">official TypeScript website</a> to explore documentation, tutorials, and community resources.
+</p>
+</body>
+</html>
