@@ -5,7 +5,7 @@ This simple project is designed to help you understand the basics of TypeScript,
 
 This Git repository contains my personal notes, code snippets, and reflections as I read through *Programming with Types* by Vlad Riscutia. The book offers a deep dive into TypeScript's type system, exploring concepts like structural typing, type inference, and advanced patterns for building robust applications. My notes aim to reinforce key ideas from the book and provide practical examples that complement the theoretical insights. You can learn more about the book [here](https://www.manning.com/books/programming-with-types).
 
-My notes on TypeScript can be accessed [here](https://https://alexcarcar.github.io/MasteringTypeScript/
+My notes on TypeScript can be accessed [here](https://alexcarcar.github.io/MasteringTypeScript/
 ).
 
 ---
