@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chapter 1: Introduction to Typing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Chapter 1: Introduction to Typing</h1>
+<p class="intro">
+    This is my personal summary of Chapter 1 from <em><strong>Programming with Types</strong></em> by Vlad Riscutia, part of my journey to master TypeScript.
+</p>
+
+<section class="content">
+    <h2>🔍 Overview</h2>
+    <p>
+        Chapter 1 introduces the concept of type systems and their importance in software development. It emphasizes how types help prevent bugs, clarify intent, and improve maintainability.
+    </p>
+
+    <h2>💡 Key Concepts</h2>
+    <ul>
+        <li><strong>Purpose of Type Systems:</strong> Catch errors early, enforce constraints, and improve code readability.</li>
+        <li><strong>Static vs. Dynamic Typing:</strong> Explains the difference between compile-time and runtime type checking.</li>
+        <li><strong>Nominal vs. Structural Typing:</strong> Introduces two ways of comparing types—by name or by shape.</li>
+        <li><strong>Type Inference & Checking:</strong> Shows how compilers can deduce types and validate correctness.</li>
+        <li><strong>Real-World Example:</strong> The Mars Climate Orbiter failure due to unit mismatch highlights the need for type safety.</li>
+    </ul>
+
+    <h2>🧭 Takeaway</h2>
+    <p>
+        A strong type system is not just a theoretical tool—it’s a practical safeguard against real-world failures. Understanding types is foundational to writing robust TypeScript code.
+    </p>
+</section>
+
+<h2>Basic Syntax Example</h2>
+<pre><code>interface User {
+  id: number;
+  name: string;
+  email?: string;
+}
+
+function greet(user: User): string {
+  return `Hello, ${user.name}!`;
+}
+
+const user: User = {
+  id: 1,
+  name: "Alice"
+};
+
+console.log(greet(user));
+</code></pre>
+
+<p class="back-link">
+    <a href="index.html">← Back to Table of Contents</a>
+</p>
+</body>
+</html>
